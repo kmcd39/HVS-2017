@@ -1,0 +1,268 @@
+"","occupied","vacancy","persons"
+"1","Record Type","Record Type","Record Type"
+"2","Borough","Borough","Borough"
+"3","External Walls--Missing brick and sloping walls","External Walls--Missing brick and sloping walls","Person number"
+"4","External Walls--Major cracks in walls","External Walls--Major cracks in walls","Sex"
+"5","External Walls--Loose or hanging cornice","External Walls--Loose or hanging cornice","Age"
+"6","External Walls--No problems","External Walls--No problems","Relationship to householder"
+"7","External Walls--Unable to observe","External Walls--Unable to observe","Hispanic Origin"
+"8","Condition of Windows--Broken/missing","Condition of Windows--Broken/missing","Race"
+"9","Condition of Windows--Rotten/loose","Condition of Windows--Rotten/loose","Person number of Spouse"
+"10","Condition of Windows--Boarded-up","Condition of Windows--Boarded-up","Person number of 1st parent"
+"11","Condition of Windows--No problems","Condition of Windows--No problems","Person number of 2nd parent"
+"12","Condition of Windows--Unable to observe","Condition of Windows--Unable to observe","Person from temporary residence"
+"13","Condition of Stairways--Loose/broken railings","Condition of Stairways--Loose/broken railings","Worked last week"
+"14","Condition of Stairways--Loose/broken steps","Condition of Stairways--Loose/broken steps","Hours worked last week"
+"15","Condition of Stairways--No problems","Condition of Stairways--No problems","Temporarily Absent/Layoff"
+"16","Condition of Stairways--No interior steps","Condition of Stairways--No interior steps","Looking for work"
+"17","Condition of Stairways--No exterior steps","Condition of Stairways--No exterior steps","Last time worked"
+"18","Condition of Stairways--Unable to observe","Condition of Stairways--Unable to observe","Major Industry type"
+"19","Condition of Floors--Sagging/sloping and slanted doors","Condition of Floors--Sagging/sloping and slanted doors","Type of worker"
+"20","Condition of Floors--Deep wear","Condition of Floors--Deep wear","Weeks worked in 2016"
+"21","Condition of Floors--Holes/missing flooring","Condition of Floors--Holes/missing flooring","Hours worked in 2016"
+"22","Condition of Floors--None of these problems","Condition of Floors--None of these problems","Salary income"
+"23","Condition of Floors--Unable to observe","Condition of Floors--Unable to observe","Business income"
+"24","Condition of building","Condition of building","Interest income"
+"25","Broken/Boarded Windows--observation","Broken/Boarded Windows--observation","Retirement(1) income"
+"26","Wheelchair accessibility--Street entry","Wheelchair accessibility--Street entry","Government income"
+"27","Wheelchair accessibility--Elevator","Wheelchair accessibility--Elevator","Retirement(2) income"
+"28","Wheelchair accessibility--Unit entrance","Wheelchair accessibility--Unit entrance","Other income"
+"29","Sex of householder","Vacant unit respondent","Current Enrollment in Job Training/Education"
+"30","Age of householder","First occupancy","Educational Attainment"
+"31","Hispanic origin","Number of units in building","Year non-householder moved into unit"
+"32","Race of householder","Owner in building","Total person income"
+"33","Number of persons from temporary residence","Stories in building","Person income flag"
+"34","Most recent place lived","Elevator in building","Business income loss flag"
+"35","Year Householder Moved into Unit Recode","Sidewalk to elevator","Interest income loss flag"
+"36","First occupants of unit","Sidewalk to unit","Labor force status recode"
+"37","Reason for moving","Number of Rooms","Check item g"
+"38","Place of birth-householder","Number of Bedrooms","Race and Ethnicity"
+"39","Place of birth-father","Complete plumbing facilities","Race Recode 1"
+"40","Place of birth-mother","Kitchen facilities","Person weight"
+"41","Coop/condo status","Type of Heating Fuel","Sequence number"
+"42","Tenure(1)","Condo/Coop Status","Sub-borough Area"
+"43","Tenure(2)","Duration of Vacancy","Sex allocation flag"
+"44","Lived in unit at time of coop/condo conversion","Status Prior to Vacancy","Age allocation flag"
+"45","Coop/condo conv. through a non-eviction plan","Condo/Coop Status Before Vacancy","Hispanic origin flag"
+"46","Occupancy status before acquisition","Status of Vacant Unit","Race allocation flag"
+"47","Condo/Coop before acquisition","Reason Unit Not Available for Rent/Sale","Worked last week flag"
+"48","Down payment(1)","Monthly Asking Rent","Hours worked last week flag"
+"49","Down payment(2)","New Control Status Recode","Temporary absent/layoff flag"
+"50","Value","Structure Class Recode","Looking for work flag"
+"51","Mortgage status","Type of Schedule","Reason not looking flag"
+"52","When Did Most Recent Mortgage Originate","Year Built Recode","Last time worked flag"
+"53","Current Interest Rate","Rent per Room Recode","Major industry type flag"
+"54","Fire and liability insurance paid separately","Condition of Building","Industry flag"
+"55","Real estate taxes paid separately","Sub-borough Area","Occupation flag"
+"56","Units in building","Sequence Number","Type of worker flag"
+"57","Owner in building","Final Housing Unit Weight","Weeks worked in 2016 flag"
+"58","Stories in building","Stories in building flag","Hours worked in 2016 flag"
+"59","Elevator in building","Rooms/Bedrooms flag","Salary flag"
+"60","Sidewalk to elevator","Complete plumbing facilities flag","Business income flag"
+"61","Sidewalk to unit","Complete kitchen facilities flag","Interest income flag"
+"62","Number of rooms","Type of heating fuel flag","Retirement(1) income flag"
+"63","Number of bedrooms","Monthly asking rent flag","Government income flag"
+"64","Complete plumbing facilities","Replicate Weight #1","Retirement(2) income flag"
+"65","Toilet breakdown","Replicate Weight #2","Other income flag"
+"66","Complete kitchen facilities","Replicate Weight #3","Education flag"
+"67","Kitchen facilities functioning","Replicate Weight #4","Replicate Weight #1"
+"68","Type of heating fuel","Replicate Weight #5","Replicate Weight #2"
+"69","Electricity-paid separately","Replicate Weight #6","Replicate Weight #3"
+"70","Monthly electricity cost","Replicate Weight #7","Replicate Weight #4"
+"71","Gas-paid separately","Replicate Weight #8","Replicate Weight #5"
+"72","Monthly gas cost","Replicate Weight #9","Replicate Weight #6"
+"73","Combined gas/electricity","Replicate Weight #10","Replicate Weight #7"
+"74","Water and sewer-paid separately","Replicate Weight #11","Replicate Weight #8"
+"75","Yearly water and sewer cost","Replicate Weight #12","Replicate Weight #9"
+"76","Other fuels-paid separately","Replicate Weight #13","Replicate Weight #10"
+"77","Yearly cost for other fuels","Replicate Weight #14","Replicate Weight #11"
+"78","Contract rent","Replicate Weight #15","Replicate Weight #12"
+"79","Length of lease","Replicate Weight #16","Replicate Weight #13"
+"80","Federal section 8","Replicate Weight #17","Replicate Weight #14"
+"81","Out of pocket rent","Replicate Weight #18","Replicate Weight #15"
+"82","Heating equipment breakdown","Replicate Weight #19","Replicate Weight #16"
+"83","Number of heating breakdowns","Replicate Weight #20","Replicate Weight #17"
+"84","Functioning Air Conditioning","Replicate Weight #21","Replicate Weight #18"
+"85","Additional sources of heat","Replicate Weight #22","Replicate Weight #19"
+"86","Presence of mice and rates","Replicate Weight #23","Replicate Weight #20"
+"87","Number of Cockroaches","Replicate Weight #24","Replicate Weight #21"
+"88","Exterminator service","Replicate Weight #25","Replicate Weight #22"
+"89","Cracks/holes in interior walls","Replicate Weight #26","Replicate Weight #23"
+"90","Holes in floors","Replicate Weight #27","Replicate Weight #24"
+"91","Broken plaster/peeling paint","Replicate Weight #28","Replicate Weight #25"
+"92","Plaster/paint> 8.5 x 11","Replicate Weight #29","Replicate Weight #26"
+"93","Water leakage","Replicate Weight #30","Replicate Weight #27"
+"94","Respondent rating of structures in neighborhood","Replicate Weight #31","Replicate Weight #28"
+"95","Number of Adults with a cell phone","Replicate Weight #32","Replicate Weight #29"
+"96","Land-line Telephone in House","Replicate Weight #33","Replicate Weight #30"
+"97","General Health (respondent)","Replicate Weight #34","Replicate Weight #31"
+"98","Medical device in home","Replicate Weight #35","Replicate Weight #32"
+"99","Dental","Replicate Weight #36","Replicate Weight #33"
+"100","Preventative care/check-up","Replicate Weight #37","Replicate Weight #34"
+"101","Mental health","Replicate Weight #38","Replicate Weight #35"
+"102","Treatment or diagnosis of illness","Replicate Weight #39","Replicate Weight #36"
+"103","Prescription drugs","Replicate Weight #40","Replicate Weight #37"
+"104","One or more utility","Replicate Weight #41","Replicate Weight #38"
+"105","Landline telephone","Replicate Weight #42","Replicate Weight #39"
+"106","Cell phone","Replicate Weight #43","Replicate Weight #40"
+"107","Cable/internet","Replicate Weight #44","Replicate Weight #41"
+"108","Other","Replicate Weight #45","Replicate Weight #42"
+"109","Affordable","Replicate Weight #46","Replicate Weight #43"
+"110","Too expensive given its condition","Replicate Weight #47","Replicate Weight #44"
+"111","Too expensive given its location","Replicate Weight #48","Replicate Weight #45"
+"112","Moved to the US as immigrant","Replicate Weight #49","Replicate Weight #46"
+"113","Year moved to US as immigrant","Replicate Weight #50","Replicate Weight #47"
+"114","Year moved to NYC","Replicate Weight #51","Replicate Weight #48"
+"115","New control status recode","Replicate Weight #52","Replicate Weight #49"
+"116","Structure class recode","Replicate Weight #53","Replicate Weight #50"
+"117","Type of schedule code","Replicate Weight #54","Replicate Weight #51"
+"118","Year built recode","Replicate Weight #55","Replicate Weight #52"
+"119","Condition of unit recode","Replicate Weight #56","Replicate Weight #53"
+"120","Respondent line number","Replicate Weight #57","Replicate Weight #54"
+"121","Household composition recode","Replicate Weight #58","Replicate Weight #55"
+"122","Presence of nonrelatives","Replicate Weight #59","Replicate Weight #56"
+"123","Race and Ethnicity of householder","Replicate Weight #60","Replicate Weight #57"
+"124","Race Recode 1","Replicate Weight #61","Replicate Weight #58"
+"125","Monthly owner cost recode","Replicate Weight #62","Replicate Weight #59"
+"126","Number of 1987 maintenance deficiencies","Replicate Weight #63","Replicate Weight #60"
+"127","Number of 2017 maintenance deficiencies","Replicate Weight #64","Replicate Weight #61"
+"128","Total persons recode","Replicate Weight #65","Replicate Weight #62"
+"129","Persons per room","Replicate Weight #66","Replicate Weight #63"
+"130","Monthly gross rent","Replicate Weight #67","Replicate Weight #64"
+"131","Monthly gross rent per room recode","Replicate Weight #68","Replicate Weight #65"
+"132","Monthly contract rent per room recode","Replicate Weight #69","Replicate Weight #66"
+"133","Household below poverty","Replicate Weight #70","Replicate Weight #67"
+"134","Household income recode","Replicate Weight #71","Replicate Weight #68"
+"135","Household income flag","Replicate Weight #72","Replicate Weight #69"
+"136","Salary","Replicate Weight #73","Replicate Weight #70"
+"137","Salary flag","Replicate Weight #74","Replicate Weight #71"
+"138","Business income","Replicate Weight #75","Replicate Weight #72"
+"139","Business income flag","Replicate Weight #76","Replicate Weight #73"
+"140","Interest income","Replicate Weight #77","Replicate Weight #74"
+"141","Interest income flag","Replicate Weight #78","Replicate Weight #75"
+"142","Retirement income (1)","Replicate Weight #79","Replicate Weight #76"
+"143","Retirement income (1) flag","Replicate Weight #80","Replicate Weight #77"
+"144","Government income",NA,"Replicate Weight #78"
+"145","Government income flag",NA,"Replicate Weight #79"
+"146","Retirement income (2)",NA,"Replicate Weight #80"
+"147","Retirement income (2) flag",NA,NA
+"148","Other income",NA,NA
+"149","Other income flag",NA,NA
+"150","Sub-borough area",NA,NA
+"151","Gross rent/income ratio",NA,NA
+"152","Contract rent/income ratio",NA,NA
+"153","Household members under 6",NA,NA
+"154","Household members under 18",NA,NA
+"155","Household weight",NA,NA
+"156","Final household weight",NA,NA
+"157","Sequence number",NA,NA
+"158","Sex of householder",NA,NA
+"159","Age of householder",NA,NA
+"160","Hispanic Origin",NA,NA
+"161","Race of householder",NA,NA
+"162","Year moved in flag",NA,NA
+"163","Year acquired flag",NA,NA
+"164","Value flag",NA,NA
+"165","Stories in building flag",NA,NA
+"166","Rooms/Bedrooms flag",NA,NA
+"167","Plumbing facilities flag",NA,NA
+"168","Kitchen facilities flag",NA,NA
+"169","Type of heating fuel flag",NA,NA
+"170","Electricity cost flag",NA,NA
+"171","Gas cost flag",NA,NA
+"172","Combined gas/electricity cost flag",NA,NA
+"173","Water and sewer cost flag",NA,NA
+"174","Other fuels cost flag",NA,NA
+"175","Contract rent flag",NA,NA
+"176","Rental assistance flag",NA,NA
+"177","Household income flag",NA,NA
+"178","Salary income flag",NA,NA
+"179","Business income flag",NA,NA
+"180","Interest income flag",NA,NA
+"181","Retirement income(1) flag",NA,NA
+"182","Government income flag",NA,NA
+"183","Retirement income(2) flag",NA,NA
+"184","Other income flag",NA,NA
+"185","30% HUD Income Limits",NA,NA
+"186","50% HUD Income Limits",NA,NA
+"187","80% HUD Income Limits",NA,NA
+"188","Replicate Weight #1",NA,NA
+"189","Replicate Weight #2",NA,NA
+"190","Replicate Weight #3",NA,NA
+"191","Replicate Weight #4",NA,NA
+"192","Replicate Weight #5",NA,NA
+"193","Replicate Weight #6",NA,NA
+"194","Replicate Weight #7",NA,NA
+"195","Replicate Weight #8",NA,NA
+"196","Replicate Weight #9",NA,NA
+"197","Replicate Weight #10",NA,NA
+"198","Replicate Weight #11",NA,NA
+"199","Replicate Weight #12",NA,NA
+"200","Replicate Weight #13",NA,NA
+"201","Replicate Weight #14",NA,NA
+"202","Replicate Weight #15",NA,NA
+"203","Replicate Weight #16",NA,NA
+"204","Replicate Weight #17",NA,NA
+"205","Replicate Weight #18",NA,NA
+"206","Replicate Weight #19",NA,NA
+"207","Replicate Weight #20",NA,NA
+"208","Replicate Weight #21",NA,NA
+"209","Replicate Weight #22",NA,NA
+"210","Replicate Weight #23",NA,NA
+"211","Replicate Weight #24",NA,NA
+"212","Replicate Weight #25",NA,NA
+"213","Replicate Weight #26",NA,NA
+"214","Replicate Weight #27",NA,NA
+"215","Replicate Weight #28",NA,NA
+"216","Replicate Weight #29",NA,NA
+"217","Replicate Weight #30",NA,NA
+"218","Replicate Weight #31",NA,NA
+"219","Replicate Weight #32",NA,NA
+"220","Replicate Weight #33",NA,NA
+"221","Replicate Weight #34",NA,NA
+"222","Replicate Weight #35",NA,NA
+"223","Replicate Weight #36",NA,NA
+"224","Replicate Weight #37",NA,NA
+"225","Replicate Weight #38",NA,NA
+"226","Replicate Weight #39",NA,NA
+"227","Replicate Weight #40",NA,NA
+"228","Replicate Weight #41",NA,NA
+"229","Replicate Weight #42",NA,NA
+"230","Replicate Weight #43",NA,NA
+"231","Replicate Weight #44",NA,NA
+"232","Replicate Weight #45",NA,NA
+"233","Replicate Weight #46",NA,NA
+"234","Replicate Weight #47",NA,NA
+"235","Replicate Weight #48",NA,NA
+"236","Replicate Weight #49",NA,NA
+"237","Replicate Weight #50",NA,NA
+"238","Replicate Weight #51",NA,NA
+"239","Replicate Weight #52",NA,NA
+"240","Replicate Weight #53",NA,NA
+"241","Replicate Weight #54",NA,NA
+"242","Replicate Weight #55",NA,NA
+"243","Replicate Weight #56",NA,NA
+"244","Replicate Weight #57",NA,NA
+"245","Replicate Weight #58",NA,NA
+"246","Replicate Weight #59",NA,NA
+"247","Replicate Weight #60",NA,NA
+"248","Replicate Weight #61",NA,NA
+"249","Replicate Weight #62",NA,NA
+"250","Replicate Weight #63",NA,NA
+"251","Replicate Weight #64",NA,NA
+"252","Replicate Weight #65",NA,NA
+"253","Replicate Weight #66",NA,NA
+"254","Replicate Weight #67",NA,NA
+"255","Replicate Weight #68",NA,NA
+"256","Replicate Weight #69",NA,NA
+"257","Replicate Weight #70",NA,NA
+"258","Replicate Weight #71",NA,NA
+"259","Replicate Weight #72",NA,NA
+"260","Replicate Weight #73",NA,NA
+"261","Replicate Weight #74",NA,NA
+"262","Replicate Weight #75",NA,NA
+"263","Replicate Weight #76",NA,NA
+"264","Replicate Weight #77",NA,NA
+"265","Replicate Weight #78",NA,NA
+"266","Replicate Weight #79",NA,NA
+"267","Replicate Weight #80",NA,NA
