@@ -1,8 +1,5 @@
 #rm(list = ls())
 
-aux.dir <- "J:/REVENUE/NEW REVENUE FOLDER/UTILITY/R"
-source(paste0(aux.dir, "/aux fcns.R"))
-
 ## load data
 dest.dir <- "./data/"
 
