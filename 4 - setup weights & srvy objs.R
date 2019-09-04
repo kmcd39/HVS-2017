@@ -1,8 +1,10 @@
-#rm(list = ls())
-
-## load data
-dest.dir <- "./data/"
-
+## if you're not running scripts in order
+'aux.dir <-
+  "J:/REVENUE/NEW REVENUE FOLDER/OUTSIDE DATA & REPORTS (L)/HELPER R SCRIPTS"
+source(paste0(aux.dir, "/aux fcns.R"))
+'
+'
+rm(list = ls())
 occ <-
   readRDS(paste0(dest.dir,
                  "2017 hvs occupied.rds"))
@@ -14,11 +16,10 @@ vac <-
 pers <-
   readRDS(paste0(dest.dir,
                  "2017 hvs person.rds"))
-
+'
 ######################################################################
 ## do some renaming and reclassifying...
-# determined from data dictionaries -- when import script was wonky and dd clarified
-
+# these reassignments were determined from data dictionaries -- when import script was wonky and dd clarified
 occ <- occ %>% rename(Aggregate.person.weight = Final.household.weight)
 occ <- occ %>% rename(Hispanic.origin.flag = Hispanic.Origin)
 occ <- occ %>% rename(Householder.hispanic.origin = Hispanic.origin)
@@ -33,7 +34,7 @@ occ <-
   mutate_at(c(1:154, 157:187),
             as.factor) %>%
   mutate_at(c(155:156, 188:267),
-            funs(as.numeric(.) / 100000 ))
+            list(~as.numeric(.) / 100000 ))
 
 ## convert to appropriate types
 pers <- 
@@ -41,7 +42,7 @@ pers <-
   mutate_at(c(1:39, 41:66),
             as.factor) %>%
   mutate_at(c(40, 67:146),
-            funs(as.numeric(.) / 100000 ))
+            list(~as.numeric(.) / 100000 ))
 
 # do vacancy records too
 vac <-
@@ -49,7 +50,7 @@ vac <-
   mutate_at(c(1:56, 58:63),
             as.factor) %>%
   mutate_at(c(57, 64:143),
-            funs(as.numeric(.) / 100000 ))
+            list(~as.numeric(.) / 100000 ))
 
 # pers %>% summarise_all(class)
 ########################################################
@@ -66,13 +67,15 @@ occ.pers <-
             select(occ, (-1 * which(colnames(occ) %in% colnames(select(pers, -Sequence.number))))), #line is a mess but it works
             by = "Sequence.number")
 
-
-occ.vac <-
-  bind_rows(occ, vac)
+#occ.vac <-
+#  bind_rows(occ, vac)
 
 ########################################################
 ## Set up as surveys
 # CAPS will indicate srvy object
+# these use replicate weights and information from the HVS survey design to setup objects
+# so srvyr package can automatically estimate standard errors etc.
+library(srvyr)
 
 # occupied
 OCC <- as_survey_rep(occ,
@@ -83,7 +86,6 @@ OCC <- as_survey_rep(occ,
                      rscales = rep(1, 80),  ## 80s because there are 80 rep weights
                      combined_weights = TRUE,
                      mse = TRUE)
-
 
 # persons
 PERS <- as_survey_rep(pers,
@@ -115,6 +117,8 @@ OCC.PERS <- as_survey_rep(occ.pers,
                           combined_weights = TRUE,
                           mse = TRUE)
 
+
+'
 saveRDS(OCC,
         file = paste0(dest.dir,
                       "OCC Survey.RDS"))
@@ -130,3 +134,5 @@ saveRDS(VAC,
 saveRDS(OCC.PERS,
         file = paste0(dest.dir,
                       "OCC-PERS Merged.RDS"))
+
+'
